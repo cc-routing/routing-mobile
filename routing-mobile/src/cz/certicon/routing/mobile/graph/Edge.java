@@ -21,5 +21,5 @@ public class Edge {
 
     //if > 0 then this is border edge
     byte liftCount;
-    Lift[] lift;
+    LiftUp[] lift;
 }

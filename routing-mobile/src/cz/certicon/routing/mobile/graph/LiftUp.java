@@ -9,13 +9,11 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class OverlayCell {
+public class LiftUp {
 
-    // Lifts point to the edges in zero layer in my region
+    // overlay cell index in my region
+    private short overlayCell;
 
-    int entryEdgeCount;
-    private LiftDown[] entryEdges;
-
-    int exitEdgeCount;
-    private LiftDown[] exitEdges;
+    // entry/exit point (=row/column) index in the overlay cell matrix
+    private int index;
 }
