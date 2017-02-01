@@ -9,7 +9,7 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class OverlayCell {
+public class OverlayCell extends BaseCell {
 
     // Lifts point to the edges in zero layer in my region
 

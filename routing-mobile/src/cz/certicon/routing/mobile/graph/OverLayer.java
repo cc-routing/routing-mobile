@@ -9,9 +9,9 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class OverLayer {
+public class OverLayer extends BaseLayer {
 
     short cellCount;
-    
+
     private OverlayCell[] cells;
 }

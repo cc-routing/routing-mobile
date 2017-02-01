@@ -9,7 +9,7 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class ZeroLayer {
+public class ZeroLayer extends BaseLayer {
 
     int cellCount;
 

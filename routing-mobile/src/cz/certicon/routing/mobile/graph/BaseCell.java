@@ -9,11 +9,12 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class ZeroCell extends BaseCell {
+public class BaseCell {
 
-    short nodeCount;
-    private Node[] nodes;
+    // zeroLayer: size = edges count
+    // overLayer: size = cell matrix rows x columns
+    Distance[] distances;
 
-    int edgeCount;
-    private Edge[] edges;
+    // position of metric for the cell in the metric binary file for my region
+    int position;
 }

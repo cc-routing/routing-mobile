@@ -9,11 +9,8 @@ package cz.certicon.routing.mobile.graph;
  *
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
-public class ZeroCell extends BaseCell {
+public class BaseLayer {
 
-    short nodeCount;
-    private Node[] nodes;
-
-    int edgeCount;
-    private Edge[] edges;
+    //position of the cell data in the topology binary file for my region
+    int[] cellIndexes;
 }
