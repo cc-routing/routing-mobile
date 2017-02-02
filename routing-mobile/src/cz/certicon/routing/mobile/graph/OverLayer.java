@@ -12,6 +12,5 @@ package cz.certicon.routing.mobile.graph;
 public class OverLayer extends BaseLayer {
 
     short cellCount;
-
     private OverlayCell[] cells;
 }

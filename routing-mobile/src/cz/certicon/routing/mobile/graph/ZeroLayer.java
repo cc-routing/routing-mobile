@@ -12,6 +12,5 @@ package cz.certicon.routing.mobile.graph;
 public class ZeroLayer extends BaseLayer {
 
     int cellCount;
-
     private ZeroCell[] cells;
 }

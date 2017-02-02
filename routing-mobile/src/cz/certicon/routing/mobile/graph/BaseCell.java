@@ -16,5 +16,5 @@ public class BaseCell {
     Distance[] distances;
 
     // position of metric for the cell in the metric binary file for my region
-    int position;
+    int metricOffset;
 }

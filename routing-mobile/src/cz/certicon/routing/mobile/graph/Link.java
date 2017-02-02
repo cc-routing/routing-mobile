@@ -13,11 +13,11 @@ package cz.certicon.routing.mobile.graph;
 public class Link {
 
     // country / district
-    private short region;
+    private short regionIdx;
 
     // cell index in the region
-    private int cell;
+    private int cellIdx;
 
     // node index in the cell
-    private int index;
+    private int nodeIdx;
 }

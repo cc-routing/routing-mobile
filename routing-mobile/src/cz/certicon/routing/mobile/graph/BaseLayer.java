@@ -11,6 +11,6 @@ package cz.certicon.routing.mobile.graph;
  */
 public class BaseLayer {
 
-    //position of the cell data in the topology binary file for my region
-    int[] cellIndexes;
+    // position of the cell data in the topology binary file for my region
+    int[] cellOffsets;
 }

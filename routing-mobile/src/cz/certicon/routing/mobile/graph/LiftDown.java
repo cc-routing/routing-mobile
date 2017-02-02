@@ -12,8 +12,8 @@ package cz.certicon.routing.mobile.graph;
 public class LiftDown {
 
     // zero cell index in my region
-    int zeroCell;
+    int zeroCellIdx;
 
     // edge index in zero cell
-    int edge;
+    int edgeIdx;
 }

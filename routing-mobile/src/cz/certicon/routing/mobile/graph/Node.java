@@ -13,12 +13,12 @@ public class Node {
 
     // in+out edges in the same cell
     byte inEdgesCount;
-    private int[] inEdges;
+    private int[] inEdgesIdx;
 
     byte outEdgesCount;
-    private int[] outEdges;
+    private int[] outEdgesIdx;
 
     // turn table index in my region
-    private int turnTable;
+    private int turnTableIdx;
 
 }

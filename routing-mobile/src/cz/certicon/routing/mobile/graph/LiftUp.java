@@ -12,8 +12,8 @@ package cz.certicon.routing.mobile.graph;
 public class LiftUp {
 
     // overlay cell index in my region
-    private short overlayCell;
+    private short overlayCellIdx;
 
     // entry/exit point (=row/column) index in the overlay cell matrix
-    private int index;
+    private int overlayCellMatrixIdx;
 }

@@ -16,8 +16,8 @@ public class Edge {
     Link node;
 
     // "expanded" turn indexes
-    byte turnIn;
-    byte turnOut;
+    byte turnInIdx;
+    byte turnOutIdx;
 
     //if > 0 then this is border edge
     byte liftCount;

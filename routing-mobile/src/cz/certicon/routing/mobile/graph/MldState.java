@@ -10,9 +10,9 @@ package cz.certicon.routing.mobile.graph;
  * @author Blahoslav Potoček <potocek@merica.cz>
  */
 public class MldState {
-    short region;
-    int cell;
-    int edge;
-    short node;
+    short regionIdx;
+    int cellIdx;
+    int edgeIdx;
+    short nodeIdx;
     Distance metric;
 }
